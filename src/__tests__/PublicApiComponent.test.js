@@ -1,7 +1,6 @@
 import React from "react";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import PublicApiComponent from "../components/PublicApiComponent";
-import { act } from "react-dom/test-utils";
 
 describe("PublicApiInifiniteScrollGrid", () => {
   test("renders grid items", async () => {
