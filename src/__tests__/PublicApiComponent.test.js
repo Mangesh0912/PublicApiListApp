@@ -41,7 +41,7 @@ describe("PublicApiInifiniteScrollGrid", () => {
 
   test("fetch more data on scroll", async () => {
     const entries = [];
-    // puplate data set 1
+    // populate data set 1
     for (let i = 0; i < 50; i++) {
       entries.push({
         API: "AdoptAPet" + i,
@@ -54,7 +54,7 @@ describe("PublicApiInifiniteScrollGrid", () => {
       });
     }
 
-    // puplate data set 2
+    // populate data set 2
     for (let i = 0; i < 50; i++) {
       entries.push({
         API: "Axolotl" + i,
